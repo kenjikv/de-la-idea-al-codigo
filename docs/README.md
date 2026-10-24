@@ -23,7 +23,7 @@ persona lo dice.
 | [`WEB_GUIDELINES.md`](WEB_GUIDELINES.md) | El checklist que vuelve web una spec genérica: navegadores, red lenta, recarga, accesibilidad, movimiento reducido, metadatos… |
 | [`SPEC_TEMPLATE.md`](SPEC_TEMPLATE.md) | Plantilla de especificación. |
 | [`PLAN_TEMPLATE.md`](PLAN_TEMPLATE.md) | Plantilla de plan técnico. |
-| [`PROMPTS.md`](PROMPTS.md) | El prompt inicial, listo para copiar. |
+| [`PROMPTS.md`](PROMPTS.md) | Prompts para pegar en el chat del agente: especificación (landing y resumen después del evento), plan, tareas, implementación y validación. El agente no lo lee solo. |
 
 No hay plantilla de `TASKS.md`: se deriva del plan aprobado.
 
@@ -51,7 +51,7 @@ docs/
 
 ## Cómo se usó en este proyecto
 
-1. El prompt de `PROMPTS.md` pidió la landing. Claude Code coordinó el trabajo con Orca.
+1. El primer prompt de `PROMPTS.md` pidió la landing. Claude Code coordinó el trabajo con Orca.
 2. Las specs fijaron requisitos (`RF-`) y criterios (`CA-`) medibles. «Textos legibles»
    pasó a ser contraste AA; «que avance con el scroll», un error máximo de 1/60 s.
 3. Los planes repartieron el trabajo: Antigravity (Gemini 3.8 Flash) investigó, la skill

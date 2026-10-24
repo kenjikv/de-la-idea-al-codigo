@@ -284,6 +284,6 @@ El proyecto sigue un flujo guiado por especificaciones con el formato de
 [Curso-SDD-Mobile](https://github.com/ArisGuimera/Curso-SDD-Mobile) adaptado a web:
 
 - [`AGENTS.md`](AGENTS.md): reglas del proyecto para agentes de IA (`CLAUDE.md` lo importa).
-- [`docs/`](docs/README.md): plantillas, guía web, reglas genéricas y prompt inicial.
+- [`docs/`](docs/README.md): plantillas, guía web, reglas genéricas y prompts para cada etapa.
 - `docs/features/landing-wtm/` y `docs/features/video-scroll-portada/`: `SPEC.md`,
   `PLAN.md` y `TASKS.md` de cada funcionalidad, con la evidencia de validación.
