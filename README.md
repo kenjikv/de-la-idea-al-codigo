@@ -19,6 +19,7 @@ documentó con **desarrollo guiado por especificaciones (SDD)**.
 | [`docs/`](docs/README.md) | Guía web, reglas genéricas, plantillas de SPEC y PLAN, y el prompt inicial. |
 | [`docs/features/landing-wtm/`](docs/features/landing-wtm/SPEC.md) | SPEC, PLAN y TASKS de la página: contenido, registro, navegación, accesibilidad y metadatos. |
 | [`docs/features/video-scroll-portada/`](docs/features/video-scroll-portada/SPEC.md) | SPEC, PLAN y TASKS del video de la portada que avanza y retrocede con el scroll. |
+| [`docs/features/resumen-post-evento/`](docs/features/resumen-post-evento/SPEC.md) | Ejemplo desde cero: SPEC en revisión, PLAN en borrador y TASKS sin empezar de la página después del evento. |
 | `index.html`, `assets/` | La web: HTML, CSS y JavaScript sin frameworks ni dependencias. |
 | `contenido/` | Investigación con fuentes y copy por sección, las entradas del contenido. |
 | `qa/` | Informes de QA independientes y el script que repite las pruebas de las correcciones. |

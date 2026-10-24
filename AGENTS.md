@@ -90,9 +90,10 @@ las plantillas compartidas para una funcionalidad concreta.
 - `docs/features/<nombre>/PLAN.md`
 - `docs/features/<nombre>/TASKS.md`
 
-Funcionalidades existentes: `landing-wtm` (contenido, secciones, registro, navegación,
-accesibilidad y metadatos) y `video-scroll-portada` (video de la portada ligado al scroll).
-Usa la carpeta existente cuando continúes su trabajo.
+Funcionalidades: `landing-wtm` (contenido, secciones, registro, navegación,
+accesibilidad y metadatos) y `video-scroll-portada` (video de la portada ligado al scroll),
+implementadas y validadas; `resumen-post-evento` (la página después del evento), con la
+spec en revisión y sin implementar. Usa la carpeta existente cuando continúes su trabajo.
 
 ### Secuencia
 

@@ -80,7 +80,7 @@ Módulos: no aplica, el sitio no está modularizado.
 <!-- Completa solo lo aplicable. Si un punto no aplica, di por qué. -->
 
 - **Contratos de contenido y configuración:** `window.WTM_CONTENIDO` con `meta`, `sitio`,
-  `registro`, `hero`, `porQue`, `wtm`, `evento`, `agenda`, `cifras`, `faq`, `cta` y `pie`.
+  `registro`, `hero`, `porQue`, `wtm`, `evento`, `agenda`, `cifras`, `faq`, `ctaFinal` y `footer`.
   Un texto vacío oculta su elemento. La forma completa está en `README-DEV.md`.
 - **Origen de los datos mostrados y transformaciones:** `INVESTIGACION.md` y `COPY.md`. Las
   cifras guardan el valor numérico (`29.2`) y el contador lo muestra con coma decimal.

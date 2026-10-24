@@ -39,10 +39,14 @@ docs/
     │   ├── SPEC.md
     │   ├── PLAN.md
     │   └── TASKS.md
-    └── video-scroll-portada/   # video de la portada ligado al scroll
-        ├── SPEC.md
-        ├── PLAN.md
-        └── TASKS.md
+    ├── video-scroll-portada/   # video de la portada ligado al scroll
+    │   ├── SPEC.md
+    │   ├── PLAN.md
+    │   └── TASKS.md
+    └── resumen-post-evento/    # ejemplo nuevo: la página después del evento
+        ├── SPEC.md             # En revisión, con decisiones pendientes
+        ├── PLAN.md             # Borrador
+        └── TASKS.md            # sin empezar
 ```
 
 ## Cómo se usó en este proyecto
@@ -55,3 +59,17 @@ docs/
 4. La primera auditoría dijo **NO APTO** (2 hallazgos altos y 3 medios). Cada hallazgo
    apuntaba a un criterio, así que se supo qué corregir. La reauditoría dijo **APTO**.
 5. El resultado y su evidencia están en cada `TASKS.md`.
+
+## Ejemplo desde cero: resumen después del evento
+
+`landing-wtm` y `video-scroll-portada` documentan algo ya construido. `resumen-post-evento`
+muestra cómo empieza una funcionalidad nueva: la organización pide que, después del
+evento, la página deje de pedir el registro y muestre cómo fue.
+
+- La [SPEC](features/resumen-post-evento/SPEC.md) está En revisión: tiene cinco decisiones
+  pendientes (fotos y consentimiento, cifras, materiales, destino de los botones y vista
+  previa en redes) que le tocan a la persona y a la organización.
+- El [PLAN](features/resumen-post-evento/PLAN.md) está en Borrador y cita el código real:
+  por ejemplo, que hoy el cambio de día usa la hora de quien visita y no la de Bolivia.
+- Las [TASKS](features/resumen-post-evento/TASKS.md) están sin empezar, con sus criterios
+  «Sin ejecutar». Nada se implementa hasta aprobar y autorizar.
