@@ -1,0 +1,8 @@
+# Material de la charla (PPT, Word y capturas): no forma parte del código
+presentacion/
+
+# Carpeta local ajena al proyecto
+/~/
+
+.DS_Store
+node_modules/

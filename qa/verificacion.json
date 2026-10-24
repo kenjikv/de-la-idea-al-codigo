@@ -1,0 +1,73 @@
+{
+  "qa01_recarga": {
+    "antes": 800,
+    "despues": 800,
+    "pasa": true
+  },
+  "qa01_cargaLenta": {
+    "antes": 400,
+    "despues": 400,
+    "pasa": true
+  },
+  "qa02_dosEstados": {
+    "muestras": [
+      {
+        "progreso": 0.5,
+        "opacidadTexto": 1,
+        "opacidadVelo": 1,
+        "ariaHidden": false
+      },
+      {
+        "progreso": 0.7,
+        "opacidadTexto": 1,
+        "opacidadVelo": 1,
+        "ariaHidden": false
+      },
+      {
+        "progreso": 0.77,
+        "opacidadTexto": 1,
+        "opacidadVelo": 1,
+        "ariaHidden": false
+      },
+      {
+        "progreso": 0.8,
+        "opacidadTexto": 0,
+        "opacidadVelo": 1,
+        "ariaHidden": true
+      },
+      {
+        "progreso": 0.85,
+        "opacidadTexto": 0,
+        "opacidadVelo": 0.766667,
+        "ariaHidden": true
+      },
+      {
+        "progreso": 0.9,
+        "opacidadTexto": 0,
+        "opacidadVelo": 0.533333,
+        "ariaHidden": true
+      }
+    ],
+    "pasa": true
+  },
+  "qa03_cifras": {
+    "muestra29_2": true,
+    "muestra330": true,
+    "pasa": true
+  },
+  "qa04_metadatos": {
+    "estaticos": {
+      "title": "Break the Pattern · Women Techmakers Santa Cruz",
+      "description": "Break the Pattern: Women Techmakers Santa Cruz celebra el Día de la Mujer Boliviana en la Universidad Evangélica Boliviana. Registro gratuito.",
+      "ogTitle": "Break the Pattern · Women Techmakers Santa Cruz",
+      "ogDescription": "Break the Pattern: Women Techmakers Santa Cruz celebra el Día de la Mujer Boliviana en la Universidad Evangélica Boliviana. Registro gratuito.",
+      "twitterTitle": "Break the Pattern · Women Techmakers Santa Cruz"
+    },
+    "pasa": true
+  },
+  "qa05_despues": {
+    "mensaje": "Gracias por acompañarnos. Pronto compartiremos el próximo encuentro de la comunidad.",
+    "pasa": true
+  },
+  "fecha": "2026-10-24T06:29:53.854Z"
+}

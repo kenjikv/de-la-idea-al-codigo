@@ -1,0 +1,269 @@
+<!doctype html>
+<html lang="es" class="no-js">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <!--
+    Los metadatos se actualizan en tiempo de ejecución desde contenido.js (meta.*),
+    pero los rastreadores de redes sociales no ejecutan JavaScript: cuando cambies
+    meta.* en contenido.js, copia también los valores aquí, carácter por carácter
+    (ver README-DEV.md). En localhost/127.0.0.1, main.js avisa en consola si el
+    título no coincide. og:url y canonical se añaden cuando meta.url tenga dominio.
+  -->
+  <title>Break the Pattern · Women Techmakers Santa Cruz</title>
+  <meta name="description" content="Break the Pattern: Women Techmakers Santa Cruz celebra el Día de la Mujer Boliviana en la Universidad Evangélica Boliviana. Registro gratuito.">
+  <meta name="theme-color" content="#0A0B14">
+  <meta name="color-scheme" content="dark">
+
+  <meta property="og:type" content="website">
+  <meta property="og:locale" content="es_BO">
+  <meta property="og:site_name" content="Women Techmakers Santa Cruz">
+  <meta property="og:title" content="Break the Pattern · Women Techmakers Santa Cruz">
+  <meta property="og:description" content="Break the Pattern: Women Techmakers Santa Cruz celebra el Día de la Mujer Boliviana en la Universidad Evangélica Boliviana. Registro gratuito.">
+  <meta property="og:image" content="assets/img/og.jpg">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="678">
+  <meta property="og:image:alt" content="Ingeniera boliviana de pie en un espacio de trabajo tecnológico de Santa Cruz de la Sierra al atardecer">
+
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Break the Pattern · Women Techmakers Santa Cruz">
+  <meta name="twitter:description" content="Break the Pattern: Women Techmakers Santa Cruz celebra el Día de la Mujer Boliviana en la Universidad Evangélica Boliviana. Registro gratuito.">
+  <meta name="twitter:image" content="assets/img/og.jpg">
+  <meta name="twitter:image:alt" content="Ingeniera boliviana de pie en un espacio de trabajo tecnológico de Santa Cruz de la Sierra al atardecer">
+
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%230A0B14'/%3E%3Cpath d='M12 20l7 24 6-17 6 17 7-24' fill='none' stroke='%23E8467C' stroke-width='5' stroke-linecap='round' stroke-linejoin='round'/%3E%3Crect x='42' y='18' width='10' height='3' fill='%234285F4'/%3E%3Crect x='42' y='27' width='10' height='3' fill='%23EA4335'/%3E%3Crect x='42' y='36' width='10' height='3' fill='%23FBBC05'/%3E%3Crect x='42' y='45' width='10' height='3' fill='%2334A853'/%3E%3C/svg%3E">
+
+  <!-- Marca que JS está activo antes de pintar, para evitar parpadeos de estado. -->
+  <script>document.documentElement.className = document.documentElement.className.replace("no-js", "js");</script>
+  <link rel="stylesheet" href="assets/css/styles.css">
+  <script src="assets/js/contenido.js" defer></script>
+  <script src="assets/js/scroll-video.js" defer></script>
+  <script src="assets/js/main.js" defer></script>
+</head>
+<body>
+  <a class="saltar" href="#contenido" data-t="sitio.saltarContenido">Saltar al contenido</a>
+
+  <header class="cabecera" data-cabecera>
+    <div class="cabecera__barra envoltura">
+      <a class="logo" href="#hero" data-aria="sitio.marcaAria">
+        <span class="logo__marca" data-t="sitio.marca">WTM</span>
+        <span class="logo__lugar" data-t="sitio.marcaLugar">Santa Cruz</span>
+      </a>
+
+      <button class="menu-boton" type="button" aria-expanded="false" aria-controls="menu-principal" data-menu-boton>
+        <span class="menu-boton__icono" aria-hidden="true"><span></span><span></span><span></span></span>
+        <span class="sr-only" data-menu-etiqueta>Abrir menú</span>
+      </button>
+
+      <div class="menu" id="menu-principal" data-menu>
+        <nav class="menu__nav" data-aria="sitio.navAria">
+          <ul class="menu__lista" data-lista="nav"></ul>
+        </nav>
+        <a class="boton boton--primario boton--compacto menu__registro" data-registro data-t="registro.texto">Regístrate</a>
+      </div>
+    </div>
+  </header>
+
+  <main id="contenido" tabindex="-1">
+    <noscript><p class="noscript">Este sitio necesita JavaScript para mostrar su contenido.</p></noscript>
+
+    <!-- 1. Hero: video ligado al scroll (scroll-video.js) -->
+    <section id="hero" class="hero" aria-labelledby="hero-titulo" data-hero>
+      <div class="hero__escenario">
+        <div class="hero__fondo" aria-hidden="true"></div>
+        <img class="hero__poster" alt="" aria-hidden="true" width="1920" height="1080" fetchpriority="high" decoding="async" data-hero-poster>
+        <video class="hero__video" muted playsinline preload="auto" disablepictureinpicture disableremoteplayback aria-hidden="true" tabindex="-1" data-hero-video></video>
+        <div class="hero__brillo" aria-hidden="true"></div>
+        <div class="hero__velo" aria-hidden="true"></div>
+
+        <div class="hero__contenido envoltura">
+          <p class="antetitulo antetitulo--hero" data-t="hero.antetitulo"></p>
+          <h1 id="hero-titulo" class="hero__titulo" data-t="hero.titulo"></h1>
+          <p class="hero__subtitulo" data-t="hero.subtitulo"></p>
+          <div class="hero__acciones">
+            <a class="boton boton--primario" data-cta="hero.ctaPrimario"></a>
+            <a class="boton boton--secundario" data-cta="hero.ctaSecundario"></a>
+          </div>
+        </div>
+
+        <a class="hero__indicador" href="#por-que" data-hero-indicador>
+          <span data-t="hero.indicadorScroll"></span>
+          <span class="hero__indicador-linea" aria-hidden="true"></span>
+        </a>
+      </div>
+    </section>
+
+    <div class="espectro" aria-hidden="true"></div>
+
+    <!-- 2. Por qué el 11 de octubre -->
+    <section id="por-que" class="seccion seccion--porque" aria-labelledby="por-que-titulo">
+      <div class="envoltura porque">
+        <div class="porque__texto revelar">
+          <p class="antetitulo"><span class="antetitulo__num" data-t="porQue.numero"></span><span data-t="porQue.antetitulo"></span></p>
+          <h2 id="por-que-titulo" class="titulo-seccion" data-t="porQue.titulo"></h2>
+          <div class="prosa" data-parrafos="porQue.parrafos"></div>
+          <blockquote class="cita">
+            <p data-t="porQue.cita"></p>
+            <footer data-t="porQue.citaAutora"></footer>
+          </blockquote>
+        </div>
+        <figure class="medio medio--retrato porque__imagen revelar">
+          <img loading="lazy" decoding="async" width="1344" height="752" data-img="porQue.imagen">
+        </figure>
+      </div>
+    </section>
+
+    <div class="espectro" aria-hidden="true"></div>
+
+    <!-- 3. Qué es Women Techmakers -->
+    <section id="wtm" class="seccion" aria-labelledby="wtm-titulo">
+      <div class="envoltura">
+        <div class="wtm__cabeza">
+          <div class="revelar">
+            <p class="antetitulo"><span class="antetitulo__num" data-t="wtm.numero"></span><span data-t="wtm.antetitulo"></span></p>
+            <h2 id="wtm-titulo" class="titulo-seccion" data-t="wtm.titulo"></h2>
+            <p class="prosa" data-t="wtm.parrafo"></p>
+          </div>
+          <figure class="medio medio--panorama revelar">
+            <img loading="lazy" decoding="async" width="1024" height="688" data-img="wtm.imagen">
+          </figure>
+        </div>
+        <ul class="tarjetas" data-lista="wtm.tarjetas"></ul>
+      </div>
+    </section>
+
+    <div class="espectro" aria-hidden="true"></div>
+
+    <!-- 4. Evento + cuenta regresiva -->
+    <section id="evento" class="seccion seccion--evento" aria-labelledby="evento-titulo">
+      <div class="envoltura">
+        <div class="revelar">
+          <p class="antetitulo"><span class="antetitulo__num" data-t="evento.numero"></span><span data-t="evento.antetitulo"></span></p>
+          <h2 id="evento-titulo" class="titulo-seccion" data-t="evento.titulo"></h2>
+        </div>
+        <div class="evento">
+          <article class="evento__tarjeta revelar" aria-labelledby="evento-titulo">
+            <figure class="medio medio--panorama evento__imagen">
+              <img loading="lazy" decoding="async" width="1024" height="688" data-img="evento.imagen">
+            </figure>
+            <dl class="evento__datos">
+              <div class="dato">
+                <dt data-t="evento.etiquetas.fecha"></dt>
+                <dd data-t="evento.fechaTexto"></dd>
+              </div>
+              <div class="dato">
+                <dt data-t="evento.etiquetas.hora"></dt>
+                <dd data-t="evento.hora"></dd>
+              </div>
+              <div class="dato">
+                <dt data-t="evento.etiquetas.lugar"></dt>
+                <dd>
+                  <span data-t="evento.lugar"></span>
+                  <span class="dato__secundario" data-t="evento.direccion"></span>
+                  <span data-mapa></span>
+                </dd>
+              </div>
+              <div class="dato">
+                <dt data-t="evento.etiquetas.modalidad"></dt>
+                <dd data-t="evento.modalidad"></dd>
+              </div>
+            </dl>
+          </article>
+
+          <div class="cuenta revelar" data-cuenta>
+            <p class="cuenta__titulo" id="cuenta-titulo" data-t="evento.cuentaRegresiva.titulo"></p>
+            <div class="cuenta__reloj" role="timer" aria-labelledby="cuenta-titulo" data-cuenta-reloj>
+              <div class="cuenta__celda"><span class="cuenta__num" data-cuenta-unidad="dias">00</span><span class="cuenta__ud" data-t="evento.cuentaRegresiva.unidades.dias"></span></div>
+              <div class="cuenta__celda"><span class="cuenta__num" data-cuenta-unidad="horas">00</span><span class="cuenta__ud" data-t="evento.cuentaRegresiva.unidades.horas"></span></div>
+              <div class="cuenta__celda"><span class="cuenta__num" data-cuenta-unidad="minutos">00</span><span class="cuenta__ud" data-t="evento.cuentaRegresiva.unidades.minutos"></span></div>
+              <div class="cuenta__celda"><span class="cuenta__num" data-cuenta-unidad="segundos">00</span><span class="cuenta__ud" data-t="evento.cuentaRegresiva.unidades.segundos"></span></div>
+            </div>
+            <p class="cuenta__mensaje" data-cuenta-mensaje hidden></p>
+            <a class="boton boton--primario boton--ancho" data-cta="evento.cta"></a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <div class="espectro" aria-hidden="true"></div>
+
+    <!-- 5. Agenda -->
+    <section id="agenda" class="seccion" aria-labelledby="agenda-titulo">
+      <div class="envoltura envoltura--estrecha">
+        <div class="revelar">
+          <p class="antetitulo"><span class="antetitulo__num" data-t="agenda.numero"></span><span data-t="agenda.antetitulo"></span></p>
+          <h2 id="agenda-titulo" class="titulo-seccion" data-t="agenda.titulo"></h2>
+        </div>
+        <ol class="linea" data-lista="agenda.bloques"></ol>
+      </div>
+    </section>
+
+    <div class="espectro" aria-hidden="true"></div>
+
+    <!-- 6. Cifras -->
+    <section id="cifras" class="seccion seccion--cifras" aria-labelledby="cifras-titulo">
+      <div class="envoltura">
+        <figure class="medio medio--cine cifras__imagen revelar">
+          <img loading="lazy" decoding="async" width="1024" height="688" data-img="cifras.imagen">
+        </figure>
+        <div class="revelar">
+          <p class="antetitulo"><span class="antetitulo__num" data-t="cifras.numero"></span><span data-t="cifras.antetitulo"></span></p>
+          <h2 id="cifras-titulo" class="titulo-seccion" data-t="cifras.titulo"></h2>
+        </div>
+        <ul class="cifras" data-lista="cifras.items"></ul>
+      </div>
+    </section>
+
+    <div class="espectro" aria-hidden="true"></div>
+
+    <!-- 7. FAQ -->
+    <section id="faq" class="seccion" aria-labelledby="faq-titulo">
+      <div class="envoltura envoltura--estrecha">
+        <div class="revelar">
+          <p class="antetitulo"><span class="antetitulo__num" data-t="faq.numero"></span><span data-t="faq.antetitulo"></span></p>
+          <h2 id="faq-titulo" class="titulo-seccion" data-t="faq.titulo"></h2>
+        </div>
+        <div class="acordeon" data-acordeon></div>
+      </div>
+    </section>
+
+    <!-- 8. CTA final -->
+    <section id="cta-final" class="seccion seccion--cta" aria-labelledby="cta-final-titulo">
+      <div class="envoltura cta-final revelar">
+        <h2 id="cta-final-titulo" class="cta-final__titulo" data-t="ctaFinal.titulo"></h2>
+        <p class="cta-final__texto" data-t="ctaFinal.parrafo"></p>
+        <a class="boton boton--primario boton--grande" data-cta="ctaFinal.boton"></a>
+      </div>
+    </section>
+  </main>
+
+  <div class="espectro" aria-hidden="true"></div>
+
+  <footer class="pie">
+    <div class="envoltura pie__rejilla">
+      <div>
+        <a class="logo logo--pie" href="#hero" data-aria="sitio.marcaAria">
+          <span class="logo__marca" data-t="sitio.marca">WTM</span>
+          <span class="logo__lugar" data-t="sitio.marcaLugar">Santa Cruz</span>
+        </a>
+        <p class="pie__credito" data-t="footer.credito"></p>
+        <p class="pie__legal" data-t="footer.legal"></p>
+      </div>
+      <div>
+        <h2 class="pie__titulo" data-t="footer.redesTitulo"></h2>
+        <ul class="redes" data-lista="footer.redes"></ul>
+        <a class="enlace pie__arriba" href="#hero" data-t="footer.volverArriba"></a>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Región viva siempre presente: el lector de pantalla anuncia el aviso aunque la caja visual aparezca y desaparezca. -->
+  <p class="sr-only" role="status" aria-live="polite" data-aviso-vivo></p>
+  <div class="aviso" data-aviso hidden>
+    <p class="aviso__texto" data-aviso-texto></p>
+    <button class="aviso__cerrar" type="button" data-aviso-cerrar>
+      <span aria-hidden="true">×</span><span class="sr-only" data-t="sitio.avisoCerrar"></span>
+    </button>
+  </div>
+</body>
+</html>
